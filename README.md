@@ -1,4 +1,4 @@
-# XIRF - Personal Blog & Portfolio
+# RC0dX - Personal Blog & Portfolio
 
 Simple and clean blog/portfolio website built with <a href="https://astro.build/" target="_blank">Astro</a> and <a href="https://(https://unocss.dev/)" target="_blank">UnoCSS</a>.
 
