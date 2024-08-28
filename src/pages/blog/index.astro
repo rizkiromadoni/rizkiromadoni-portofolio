@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import DefautLayout from "../../layouts/Layout.astro";
+import { SITE_TITLE } from "../../consts";
 
 const posts = (await getCollection("blog"))
 	.sort((a:CollectionEntry<"blog">, b:CollectionEntry<"blog">) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
@@ -20,7 +21,7 @@ for (const post of posts) {
 ---
 
 <DefautLayout
-	title="Andka Blog, a collection of my thoughts"
+	title=`${SITE_TITLE} | Blog`
 	description="Here you can find a collection of my thoughts on various topics. I try to write about things that I find interesting, and that I think others might find interesting as well. I hope you enjoy reading them!">
 	<div class="grid gap-6 mt-32 max-w-3xl mx-auto px-12 mb-20 slide-enter-content">
 		<h1>

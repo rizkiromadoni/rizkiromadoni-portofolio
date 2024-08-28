@@ -1,4 +1,5 @@
 ---
+import { EMAIL, GITHUB_URL, TWITTER_URL } from "../consts";
 import ToggleTheme from "./ToggleTheme.astro";
 
 const links = [
@@ -16,17 +17,17 @@ const links = [
 
 const iconLinks = [
 	{
-		href: "https://github.com/xirf",
+		href: GITHUB_URL,
 		icon: "i-myna-brand-github",
 		label: "GitHub",
 	},
 	{
-		href: "https://twitter.com/xirfs",
+		href: TWITTER_URL,
 		icon: "i-myna-brand-x",
 		label: "Twitter",
 	},
 	{
-		href: "mailto:itsandka@gmail.com",
+		href: `mailto:${EMAIL}`,
 		icon: "i-myna-envelope",
 		label: "Email",
 	},
@@ -42,7 +43,7 @@ const iconLinks = [
 	<a href="/" title="Home" aria-label="Home">
 		<div class="flex justify-between gap-2 font-bold">
 			<span class="i-myna-terminal w-6 h-6"></span>
-			<span class="hidden sm:block">Andka</span>
+			<span class="hidden sm:block">RC0dX</span>
 		</div>
 	</a>
 	<div class="flex items-center gap-4">

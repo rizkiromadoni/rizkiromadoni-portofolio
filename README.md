@@ -2,7 +2,7 @@
 
 Simple and clean blog/portfolio website built with <a href="https://astro.build/" target="_blank">Astro</a> and <a href="https://(https://unocss.dev/)" target="_blank">UnoCSS</a>.
 
-Visit [andka.my.id](https://andka.my.id) for live preview
+Visit [rcodx.dev](https://rcodx.dev) for live preview
 
 <!-- image -->
 
@@ -28,7 +28,7 @@ To run this project locally, you need to have Node.js and npm installed on your 
 1. Clone this repository
 
 ```bash
-git clone https://github.com/xirf/xirf-portofolio.git
+git clone https://github.com/rizkiromadoni/rizkiromadoni-portofolio.git
 ```
 
 2. Install the dependencies
@@ -39,6 +39,8 @@ pnpm install
 npm install
 # or
 yarn install
+# or
+bun install
 ```
 
 3. Run the development server
@@ -49,6 +51,8 @@ pnpm dev
 npm run dev
 # or
 yarn dev
+# or
+bun dev
 ```
 
 4. Open your browser and navigate to `http://localhost:4321`

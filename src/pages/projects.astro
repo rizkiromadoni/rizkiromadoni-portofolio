@@ -2,11 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import projects from "../data/projects";
 import type { Project } from "../types/Project";
+import { SITE_TITLE } from "../consts";
 
 const projectKeys = Object.keys(projects) as Array<keyof typeof projects>;
 ---
 
-<Layout title="Andka projects, take a look at my projects" description="Here are some of the projects that i have done or work on.">
+<Layout title=`${SITE_TITLE} | Projects` description="Here are some of the projects that i have done or work on.">
 	<div class="flex min-h-screen p-12 max-w-6xl mx-auto relative">
 		<main class="w-full flex flex-col gap-6">
 			<div class="w-full flex flex-col gap-6 slide-enter-content">

@@ -1,19 +1,20 @@
 ---
+import { FACEBOOK_URL, GITHUB_URL, SITE_TITLE, TWITTER_URL, SELF_FULLNAME, SELF_NAME, SELF_USERNAME, SELF_ROLE } from "../consts";
 import Layout from "../layouts/Layout.astro";
 
 const socialMedia = [
 	{
-		link: "https://github.com/xirf",
+		link: GITHUB_URL,
 		icon: "i-myna-brand-github",
 		name: "Github",
 	},
 	{
-		link: "https://www.facebook.com/0xirf",
+		link: FACEBOOK_URL,
 		icon: "i-myna-brand-facebook",
 		name: "Facebook",
 	},
 	{
-		link: "https://twitter.com/xirfs",
+		link: TWITTER_URL,
 		icon: "i-myna-brand-x",
 		name: "Twitter",
 	},
@@ -21,27 +22,27 @@ const socialMedia = [
 ---
 
 <Layout
-	title="Andka is xirf, welcome to my home"
-	description="Andika Nur Pratama, a student in Informatics Engineering, technology is my passion and dreaming about a better world with it and making it happen is a dream come true. I am generally into web dev things but over the past few month I have begun learning about android dev using kotlin if you are interested, you can visit my projects here. Ouside coding, I often spend my time playing some non-serious games, watching animes and reading manga if you have any recommendations please don't hesitate to suggest them. I live in Magetan, East Java so in case you're around don't hesitate to contact me, perhaps we'll grab some coffee or do some collaboration.">
+	title=`${SITE_TITLE}`
+	description=`${SELF_FULLNAME}, a ${SELF_ROLE}, technology is my passion and dreaming about a better world with it and making it happen is a dream come true. I am generally into web dev things but over the past few month I have begun learning about backend development if you are interested, you can visit my projects here. Ouside coding, I often spend my time playing some non-serious games, watching animes and reading manga if you have any recommendations please don't hesitate to suggest them. I live in Magetan, East Java so in case you're around don't hesitate to contact me, perhaps we'll grab some coffee or do some collaboration.``>
 	<div class="flex items-center justify-center min-h-70vh p-12">
 		<div class="w-full grid gap-3 max-w-xl slide-enter-content">
 			<h1 class="dark:text-#e5e7eb text-4xl font-bold item">
-				Andka<span class="text-sm font-normal opacity-75 ml-1">or <span class="bold underline">Xirf</span></span>
+				{SELF_NAME}<span class="text-sm font-normal opacity-75 ml-1">or <span class="bold underline">{SELF_USERNAME}</span></span>
 			</h1>
 			<div>
-				<p>Hi, I am Andika Nur Pratama</p>
-				<p>Currently a student in Informatics Engineering.</p>
+				<p>Hi, I am {SELF_FULLNAME}</p>
+				<p>Currently a {SELF_ROLE}.</p>
 			</div>
 			<p>
 				Technology is my passion and dreaming about a better world with it and making it happen is a dream come true. I am generally into web
-				dev things but over the past few month I have begun learning about android dev using kotlin if you are interested, you can visit my <a
+				dev things but over the past few month I have begun learning about backend development if you are interested, you can visit my <a
 					href="/projects"
 					class="font-bold underline">projects here</a
 				>.
 			</p>
 			<p>
 				Ouside coding, I often spend my time playing some non-serious games, watching animes and reading manga if you have any recommendations
-				please don't hesitate to suggest them. I live in Magetan, East Java so in case you're around don't hesitate to contact me, perhaps
+				please don't hesitate to suggest them. I live in Brebes, Central Java so in case you're around don't hesitate to contact me, perhaps
 				we'll grab some coffee or do some collaboration.
 			</p>
 			<div class="w-20 h-1px bg-gray opacity-50 mx-auto mt-2"></div>
