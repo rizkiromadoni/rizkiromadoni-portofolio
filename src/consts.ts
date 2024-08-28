@@ -1,5 +1,6 @@
 // Site Information
 export const SITE_TITLE = 'RC0dX';
+export const SITE_DESCRIPTION = 'Backend Developer';
 
 // Personal Information
 export const SELF_USERNAME = 'RC0dX'
