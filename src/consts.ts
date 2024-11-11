@@ -10,6 +10,6 @@ export const SELF_ROLE = 'Freelance Developer'
 
 // Social Media URL
 export const GITHUB_URL = "https://github.com/rizkiromadoni"
-export const FACEBOOK_URL = "#"
-export const TWITTER_URL = "#"
+export const FACEBOOK_URL = "https://facebook.com/rc0dx"
+export const TWITTER_URL = "https://x.com/rizkiromadonii"
 export const EMAIL = "rsahroromadoni@gmail.com"

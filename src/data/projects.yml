@@ -7,15 +7,23 @@ web:
       url: https://github.com/rizkiromadoni/komikgan-backend
       image: i-solar-gallery-favourite-bold-duotone
 api:
-    - name: SanCommerce API
-      description: Online Shop API with Payments System
+    - name: SanCommerce
+      description: Online Shop with payment gateway integration
       url: https://github.com/rizkiromadoni/sancommerce
       image: i-solar-cart-check-bold-duotone
     - name: Forum API
       description: Final Submission Backend Expert Dicoding
       url: https://github.com/rizkiromadoni/forum-api
       image: i-solar-hashtag-chat-bold-duotone
-    - name: SpeedSearch API
+    - name: SpeedSearch
       description: A high-performance Search API
       url: https://github.com/rizkiromadoni/speedsearch
       image: i-solar-rocket-bold-duotone
+    - name: Simple Bank
+      description: A Banking System with gRPC and REST API
+      url: https://github.com/rizkiromadoni/simplebank
+      image: i-solar-hand-money-bold-duotone
+    - name: Manga API
+      description: A REST API for Indonesian Translated Manga
+      url: https://github.com/rizkiromadoni/manga-api
+      image: i-solar-book-bookmark-bold-duotone
